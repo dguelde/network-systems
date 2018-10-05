@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Mon, 18 Dec 2017 21:01:49 GMT
+Content-Type: text/javascript
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: ug1=5a382cbd0f01d10a3c072b68f501e6ae; path=/; domain=.www.ugdturner.com; expires=Sat, 17-Dec-22 21:01:49 GMT
+Cache-Control: no-cache
+
+149
+	{
+		var now = new Date();
+		var shortterm = new Date(now.getTime() + 26*60*60*1000);
+		var longterm = new Date(now.getTime() + 365*24*60*60*1000);
+		document.cookie = 'ug=5a382cbd0f01d10a3c072b68f501e6ae; expires='+longterm.toGMTString()+'; path=/';
+		document.cookie = 'ugs=1; expires='+shortterm.toGMTString()+'; path=/';
+	}
+
+
+0
+

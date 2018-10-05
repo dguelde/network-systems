@@ -1,0 +1,6 @@
+CSCI 5273 PA3
+Donovan Guelde
+
+Submission includes dfc.c client and four servers, dfs1.c, dfs2.c, dfs3.c, and dfs4.c.  All programs are compiled on the command line via gcc <programName>.  configuration files are also included (same as in the writeup). 
+
+dfc.c client program provides get, put, and list functionality.  All inputs require another input designating a subfolder to get from/put in/ or list the contents of.  When putting files on the server, they are stored in a subfolder DFS#/username/providedSubfolder.  When getting files from the server, they are stored in the project root directory regardless of where they were stored on the servers.

@@ -1,0 +1,16 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Mon, 18 Dec 2017 21:01:56 GMT
+Content-Type: text/html
+Content-Length: 178
+Location: http://grad.berkeley.edu/wp-content/plugins/the-events-calendar/src/resources/css/tribe-events-full.css?ver=4.5.13
+Connection: keep-alive
+Keep-Alive: timeout=20
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body bgcolor="white">
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>

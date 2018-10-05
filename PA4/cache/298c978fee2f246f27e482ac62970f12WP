@@ -1,0 +1,28 @@
+HTTP/1.1 200 OK
+Server: AmazonS3
+Content-Length: 292
+Content-Type: application/javascript
+x-amz-id-2: y7qsKkwSvgnqoRsWY7uZrCIj6poJRGTE/QihXhdzJagBfH3QKPmLzodY8xwoQVQzSC2lDLmNmYY=
+x-amz-version-id: Y1BKPK.c9lIaZx2uYj8JMWZye_vJfrh9
+ETag: "adadfc5d7afd13e353d9d52cec1c7827"
+x-amz-request-id: 4B28C1E92F613110
+Cache-Control: max-age=64782
+Date: Mon, 18 Dec 2017 21:01:50 GMT
+Connection: close
+
+(function(){
+  window['optimizely'] = window['optimizely'] || [];
+  window['optimizely'].push(['activateGeoDelayedExperiments', {
+    'location':{
+      'city': "BOULDER",
+      'continent': "NA",
+      'country': "US",
+      'region': "CO"
+    },
+    'ip':"128.138.65.165"
+  }]);
+})
+//
+()
+
+;
